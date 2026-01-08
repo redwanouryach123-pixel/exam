@@ -1,0 +1,51 @@
+body{
+    background-color: #fafaf4;
+}
+nav{
+    background-color: #222;
+}
+.nav-link:hover{
+    color: #EDEBCA;
+    font-weight: bold;
+    text-decoration: underline;
+}
+.nav-link{
+    color:#FAF9F0;
+}
+.card-body{
+    border-radius: 10px;
+    background-color:#FAF9F0 ;
+}
+.card-header{
+     background-color: #222;
+     color: #FAF9F0;
+}
+.btn{
+    background-color: #222;
+    border: 0px;
+    color: #FAF9F0;
+}
+.btn:hover{
+    background-color: #FF5722;
+    border: 0px;
+    font-weight: bold;
+    color: black;
+}
+.inscrire{
+    color: #FF5722 ;
+    font-weight: bold;
+}
+footer{
+    background-color: #222;
+}
+header p{
+    color: aliceblue;
+    font-weight: bold;
+    text-align: center;
+    padding-bottom: 2px;
+    margin: 0px;
+    background-color: #FF5722 ;
+}
+main{
+    height: 550px;
+}

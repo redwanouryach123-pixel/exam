@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8">
+  <title>quantiter</title>
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="quantiter.css">
+
+</head>
+
+<body class="bg-light">
+
+  <div class="container mt-5">
+    <div class="row justify-content-center">
+      <div class="col-md-6">
+
+        <div class="card shadow-sm">
+          <div class="card-body">
+            <form>
+              <div class="mb-3">
+                <label class="form-label">Référence de l’article</label>
+                <input type="text" class="form-control" value="ART-001" disabled>
+              </div>
+
+              <div class="mb-3">
+                <label class="form-label">Quantité</label>
+                <input type="number" class="form-control" min="1" placeholder="Entrez la quantité" required>
+              </div>
+
+              <div class="d-flex justify-content-between">
+                <a href="index.html" class="btn btn-secondary">
+                  Retour
+                </a>
+                <a href="paiment.html" class="btn" id="btn">
+                  Suivant
+                </a>
+
+              </div>
+            </form>
+
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+</body>
+
+</html>

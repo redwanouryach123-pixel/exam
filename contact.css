@@ -1,0 +1,41 @@
+body {
+    background-color: #FAF9F0;
+    min-height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+nav{
+    background-color: #222;
+}
+.nav-link:hover{
+    color: #FF5722 ;
+    font-weight: bold;
+    text-decoration: underline;
+}
+.nav-link{
+    color:#FAF9F0;
+}
+footer{
+    background-color: #222;
+    margin-top: 0;
+}
+.list{
+    font-weight: bold;
+    color: #FAF9F0;
+    list-style: none;
+}
+
+
+.btn{
+    color: #FAF9F0;
+    background-color:  #FF5722;
+    border: 0px solid;
+}
+.btn:hover{
+    color: #ffffff;
+    background-color:  #ab2800;
+}
+
+
